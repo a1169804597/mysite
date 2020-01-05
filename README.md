@@ -1,4 +1,0 @@
-# mysite
-不是一个完整的项目，没有上传setting文件，需要本地上上传setting文件，注意数据库的使用
-#使用MySQL数据库
-将MySQL数据库代替sqlite数据库，所以需要在Ubuntu中安装MySQL数据库
