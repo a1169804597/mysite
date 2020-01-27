@@ -1,3 +1,4 @@
 db.sqlite3
 setings.py
 __pycache__/
+static_collected/
