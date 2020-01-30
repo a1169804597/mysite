@@ -11,6 +11,10 @@ class ReadNum(models.Model):
     object_id = models.PositiveIntegerField()
     content_object = GenericForeignKey('content_type', 'object_id')
 
+    class Meta:
+        verbose_name = '阅读数'
+        verbose_name_plural = verbose_name
+
 class ReadNumExpandMethod():
     def get_read_num(self):
         try:
@@ -28,3 +32,6 @@ class ReadDetail(models.Model):
     object_id = models.PositiveIntegerField()
     content_object = GenericForeignKey('content_type', 'object_id')
     
+    class Meta:
+        verbose_name = '阅读记录'
+        verbose_name_plural = verbose_name
