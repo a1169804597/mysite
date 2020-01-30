@@ -12,6 +12,13 @@ ul.navbar-right {
     margin-right: 0; 
 }
 
+.search-form button[type="submit"] {
+    background: none;
+    border: none;
+    margin-left: -3em;
+    color: #aaa;
+}
+
 div.footer {
     margin-top: 3em;
     background-color: #eee;
